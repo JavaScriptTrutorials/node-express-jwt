@@ -11,3 +11,5 @@ user model
 mongoose validation
 ### Lesson 6
 mongoose hook - special function which fires after certain mongose event like document are save
+### Lesson 7
+hashing passwords
