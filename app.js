@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const {PORT, DB} = require('./config');
+const authRouter = require('./routes/authRoutes');
 
 const app = express();
 
@@ -21,3 +22,5 @@ app.get('/', (req, res) => {
 app.get('/smoothies', (req, res) => {
     res.render('./smoothies')
 })
+
+app.use(authRouter);
