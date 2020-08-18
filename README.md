@@ -3,5 +3,7 @@
 basic project structure 
 ### Lesson 2
 using MVC (Model, View, Controller) approach + Routes
-### Lesson 2
+### Lesson 3
 handling POST requests
+### Lesson 4
+user model
