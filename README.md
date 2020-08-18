@@ -9,3 +9,5 @@ handling POST requests
 user model
 ### Lesson 5
 mongoose validation
+### Lesson 6
+mongoose hook - special function which fires after certain mongose event like document are save
