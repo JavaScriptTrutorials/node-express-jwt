@@ -13,7 +13,7 @@ app.set('view engine', 'ejs');
 
 // connect to mongoDB
 const dbURI = `mongodb+srv://${DB.USER}:${DB.PASSWORD}@nodecluster.mjkee.mongodb.net/${DB.NAME}?retryWrites=true&w=majority`;
-mongoose.connect(dbURI, {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect(dbURI, {useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true})
 .then(result => app.listen(PORT, () => console.log(`Server listening on port ${PORT}!`)))
 .catch(err => console.log(err));
 
