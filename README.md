@@ -13,3 +13,5 @@ mongoose validation
 mongoose hook - special function which fires after certain mongose event like document are save
 ### Lesson 7
 hashing passwords
+### Lesson 8
+authentification views
