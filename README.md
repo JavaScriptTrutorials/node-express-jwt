@@ -17,3 +17,5 @@ hashing passwords
 authentification views
 ### Lesson 9
 cookies
+### Lesson 10
+JWT - new user signup (part 1)
