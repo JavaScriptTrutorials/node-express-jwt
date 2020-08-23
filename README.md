@@ -19,3 +19,5 @@ authentification views
 cookies
 ### Lesson 10
 JWT - new user signup (part 1)
+### Lesson 11
+JWT - new user signup, error handling (part 2)
