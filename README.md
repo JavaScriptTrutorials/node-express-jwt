@@ -15,3 +15,5 @@ mongoose hook - special function which fires after certain mongose event like do
 hashing passwords
 ### Lesson 8
 authentification views
+### Lesson 9
+cookies
