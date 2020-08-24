@@ -21,3 +21,5 @@ cookies
 JWT - new user signup (part 1)
 ### Lesson 11
 JWT - new user signup, error handling (part 2)
+### Lesson 12
+JWT - logging users in (part 1)
