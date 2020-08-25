@@ -23,3 +23,5 @@ JWT - new user signup (part 1)
 JWT - new user signup, error handling (part 2)
 ### Lesson 12
 JWT - logging users in (part 1)
+### Lesson 13
+JWT - logging users in (part 2) - errors handling

@@ -36,13 +36,15 @@
                 }
             });
             const data = await res.json();
+            console.log('--------');
             console.log(data);
             if(data.errors){
+                console.log(data.errors);
                 emailError.textContent = data.errors.email;
                 passwordError.textContent = data.errors.password;
             }
             if(data.user){
-                //location.assign('/');
+                location.assign('/');
             }
         }
         catch(err){
